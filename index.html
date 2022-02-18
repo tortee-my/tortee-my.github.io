@@ -10,6 +10,20 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<script>
+		(function (s, e, n, d, er) {
+		  s['Sender'] = er;
+		  s[er] = s[er] || function () {
+			(s[er].q = s[er].q || []).push(arguments)
+		  }, s[er].l = 1 * new Date();
+		  var a = e.createElement(n),
+			  m = e.getElementsByTagName(n)[0];
+		  a.async = 1;
+		  a.src = d;
+		  m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+		sender('16d5cf8b8f6501')
+	  </script>
 </head>
 
 <body class="is-preload">
@@ -100,8 +114,9 @@
 				<h1>Join TorTee</h1>
 				<p class="major">As a mentor or mentee, or both!</p>
 				<p>Be part of the Malaysian education revolution</p>
-				<ul class="actions stacked">
-					<li><a href="#title" class="button large wide smooth-scroll-middle">Get Started</a></li>
+				<ul class="actions">
+					<li><a href="#title" class="primary button smooth-scroll-middle">Get Started</a></li>
+					<li><a id="subscribe" class="button smooth-scroll-middle">Subscribe</a></li>
 				</ul>
 			</div>
 			<div class="image">
@@ -127,6 +142,7 @@
 		</footer>
 
 	</div>
+	
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
