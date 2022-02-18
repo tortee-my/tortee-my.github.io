@@ -4196,6 +4196,11 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
+				.banner.style4 ul {
+					align-items: center;
+					justify-content: center;
+				}
+
 		}
 
 		.banner.style4.fullscreen {
