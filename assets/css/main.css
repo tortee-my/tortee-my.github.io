@@ -3937,6 +3937,11 @@ input, select, textarea {
 					margin-right: 0;
 				}
 
+				.banner.style3 ul {
+					align-items: center;
+					justify-content: center;
+				}
+
 		}
 
 		.banner.style3.fullscreen {
